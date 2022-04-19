@@ -1,0 +1,32 @@
+Algoritmo "zero_neg_ou_positivo"
+// Disciplina   : [Algoritmo]
+// Professor   : Pedro Soares 
+// Descrição   : Faça um algoritmo que receba N números e mostre positivo,
+//negativo ou zero para cada número.
+// Autor(a)    : Mayse Moraes
+// Data atual  : 2022-04-19
+Var
+// Seção de Declarações das variáveis 
+
+Num : real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+Escreval ("Insira um número:")
+leia (num)
+Se (num = 0) entao
+Escreval ("Esse número é igual a zero")
+Escreva ("Deseja finalizar? (S/N)")
+senao
+se (num < 0) entao
+Escreval ("Esse número é negativo")
+senao
+se (num > 0 ) entao
+Escreval (" Esse número é positivo")
+Fimse
+Fimse
+Fimse
+
+Fimalgoritmo
